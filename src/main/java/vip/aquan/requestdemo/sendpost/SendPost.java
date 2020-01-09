@@ -18,8 +18,8 @@ public class SendPost {
     private static Logger logger = Logger.getLogger(SendPost.class);
     /**
      * 发送post请求
-     * @param url
-     * @param map
+     * @param url 请求地址
+     * @param map 请求参数
      * @return
      */
     public static JSONObject sendPost(String url, Map<String, String> map){
